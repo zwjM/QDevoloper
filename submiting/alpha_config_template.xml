@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cfg>
+    <Constants runmode= "backtest" startdate = "20210101" enddate = "20230101" />
+    <Universe pool = "" disable = "" />
+    <DATA dataFileRoot = "E:\Pycharm_files\Quant\devolop\submiting\data"/>
+
+
+    <Alpha  id="Alpha_name_09"  dumpAlphaFile="true" dumpAlphaDir="E:/Pycharm_files/Quant/devolop/submiting/zwj">
+        <Config alphacode="alpha_template" trimp="0.9"/>
+        <Operations></Operations>
+    </Alpha>
+
+    <Alpha  id="Alpha_name_08"  dumpAlphaFile="true" dumpAlphaDir="E:/Pycharm_files/Quant/devolop/submiting/zwj">
+        <Config alphacode="alpha_template" trimp="0.8"/>
+        <Operations></Operations>
+    </Alpha>
+</cfg>
+<!--
+-->
